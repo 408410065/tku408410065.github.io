@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>hw8_408410065</title>
+    <script language="javascript" type="text/javascript">
+     function tree()
+     {  var amt=prompt("請輸入一個數字","");
+	document.write("tree(amt)");
+	document.write("<br/>");
+	for(var i=0;i<amt;i++)
+	{
+           for(var j=0;j<amt-i;j++)
+           {
+            document.write("&nbsp;");
+            } 
+              for(var k=0;k<i*2+1;k++)
+              {
+               document.write("*");
+              }
+	document.write("<br/>");
+	}
+	
+	 var w=2*amt;    
+         var l=1;       
+         var m=(w-1)/2;   
+    
+    
+        for(var i=0;i<amt;i++) 
+        {
+           for(var j=0;j<m;j++)
+           {
+              document.write("&nbsp;");
+           }
+              for(var k=0;k<l;k++)
+              {
+                 document.write("*");
+              }
+        document.write("<br/>");
+        }
+     }
+     tree();
+    </script>
+</head>
+<body>
+
+</body>
+</html>
+
